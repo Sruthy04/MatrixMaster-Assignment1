@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>My First Website</title>
+  </head>
+  <body>
+    This is my first website. I'm <b>excited!!!</b>
+    <br />
+    <h1>Lorem Ipsum</h1>
+    <p>
+      Lorem ipsum is een stukje "dummy tekst" die vaak wordt gebruikt als
+      tijdelijke opvulling voor een ontwerp of lay-out. Het wordt vaak gebruikt
+      door grafisch ontwerpers, webontwikkelaars en drukkers om een idee te
+      geven van hoe tekst eruit zal zien op een pagina zonder dat de definitieve
+      inhoud al beschikbaar is. De lorem ipsum tekst is
+      <a href="https://www.google.com" target="_blank">willekeurig gegenereerd</a>
+      en heeft geen echte betekenis, maar het heeft wel de juiste lengte en
+      opmaak om als een realistische stand-in te fungeren voor echte tek.
+    </p>
+    <ul>
+      <li>America
+        <ul>
+          <li>California</li>
+        </ul>
+      </li>
+      <li>Netherlands
+        <ul>
+          <li>Amsterdam</li>
+        </ul>
+      </li>
+      <li>Germany
+        <ul>
+          <li>Berlin</li>
+        </ul>
+      </li>
+    </ul>
+    <br />
+    <form action="process.php" method="post">
+      <div>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" />
+      </div>
+      <br />
+      <div>
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" />
+      </div>
+      <br />
+      <div>
+        <label for="age">Age</label>
+        <input type="number" id="age" name="age" min="22" max="50" />
+      </div>
+      <br />
+      <div>
+        <p>Please select gender:</p>
+        <input type="radio" id="male" name="gender" value="Male" />
+        <label for="male">Male</label><br />
+        <input type="radio" id="female" name="gender" value="Female" />
+        <label for="female">Female</label><br />
+      </div>
+      <br />
+      <input type="checkbox" id="termsAndConditions" name="terms" value="Terms And Conditions" />
+      <label for="termsAndConditions">Consent</label>
+      <br />
+      <br />
+      <table border="1">
+        <tr>
+          <th>Month</th>
+          <th>Salary</th>
+          <th>Rent</th>
+          <th>Expense</th>
+          <th>Balance</th>
+        </tr>
+        <tr>
+          <td>August</td>
+          <td>2000$</td>
+          <td>850$</td>
+          <td>1000$</td>
+          <td>150$</td>
+        </tr>
+        <tr>
+          <td>September</td>
+          <td>3000$</td>
+          <td>1200$</td>
+          <td>1500$</td>
+          <td>300$</td>
+        </tr>
+      </table>
+      <br />
+      <input type="submit" name="submit" value="Submit" />
+    </form>
+  </body>
+</html>
