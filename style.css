@@ -24,6 +24,7 @@
     background-color:red; 
     position:absolute;
     top:175px;
+    
    }
 
    #main_content{
@@ -31,31 +32,32 @@
     width: 725px;
     background-color: yellow; 
     position:absolute;
-    top:180px;
+    top:175px;
     left:210px;
     right:250px;
     bottom:80px;
 
 
    }
-   .purple3{
+   .subcontent{
     height: 200px;
     width: 200px;
     background-color: purple;
-    position:absolute;
-    top:10px;
-    left:10px;
-    right:10px;
-    bottom:200px;
+    float:left;
+    margin:10px 13px;
+
+
+
+
 
    }
    #advertisements{
-    height: 90px;
-    width: 670px;
+    height: 100px;
+    width: 675px;
     background-color: pink;
     position:absolute;
-    top:250px;
-    left:1cqh;
+    top:235px;
+    left:13px;
     right:300px;
-    bottom:120px;
+    bottom:100px;
    }
