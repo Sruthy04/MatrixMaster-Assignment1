@@ -1,14 +1,8 @@
 /* BASIC STYLES */
 .center {
-    border: 10px;
     display: flex;
-    width: 18%;
-    padding: 10px;
-    margin: auto;
-}
-
-header {
-    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 .form {
@@ -38,7 +32,11 @@ header {
 .container1 {
     text-align: center;
     background-color: #f0f0f0;
-    row-gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
 }
 
 .container2 {
@@ -51,7 +49,6 @@ header {
     text-align: center;
     font-size: 1em;
     flex: 0.5;
-    border: 2px solid;
     margin: 1px;
 }
 
@@ -61,7 +58,6 @@ header {
     text-align: center;
     font-size: 1em;
     flex: 0.5;
-    border: 2px solid;
     margin: 1px;
 }
 
@@ -71,6 +67,11 @@ header {
     text-align: center;
     font-size: 1em;
     flex: 0.5;
-    border: 2px solid;
     margin: 1px;
+}
+
+.side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
