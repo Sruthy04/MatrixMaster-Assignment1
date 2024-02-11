@@ -1,0 +1,76 @@
+/* BASIC STYLES */
+.center {
+    border: 10px;
+    display: flex;
+    width: 18%;
+    padding: 10px;
+    margin: auto;
+}
+
+header {
+    width: 100%;
+}
+
+.form {
+    text-align: center;
+}
+
+#form-search {
+    width: 450px;
+    line-height: 32px;
+    padding: 20px 10px;
+}
+
+.emailBox {
+    padding-bottom: 1px;
+}
+
+.form #form-search {
+    padding: 0 8px;
+}
+
+.buttons {
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 300px;
+}
+
+.container1 {
+    text-align: center;
+    background-color: #f0f0f0;
+    row-gap: 10px;
+}
+
+.container2 {
+    display: flex;
+    background-color: #f0f0f0;
+}
+
+.flex-item1 {
+    background-color: #B2FFFF;
+    text-align: center;
+    font-size: 1em;
+    flex: 0.5;
+    border: 2px solid;
+    margin: 1px;
+}
+
+
+.flex-item2 {
+    background-color: #89CFF0;
+    text-align: center;
+    font-size: 1em;
+    flex: 0.5;
+    border: 2px solid;
+    margin: 1px;
+}
+
+
+.flex-item3 {
+    background-color: #4B9CD3;
+    text-align: center;
+    font-size: 1em;
+    flex: 0.5;
+    border: 2px solid;
+    margin: 1px;
+}
